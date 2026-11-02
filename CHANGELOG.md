@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-11-02
+
+- Fixed added/deleted diff line colors: diff backgrounds are now tinted surface
+  colors instead of solid status fills, so code text stays readable.
+- Success and error foregrounds now meet text contrast on base and raised surfaces.
+- Added regression tests for diff line contrast.
+
 ## 1.0.0 — 2026-11-02
 
 - First public release of Prism Theme Studio.

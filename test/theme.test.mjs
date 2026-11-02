@@ -101,7 +101,10 @@ test('theme expansion covers the Host alias surface with paired values', () => {
       assert.equal(tokens['--dsw-alias-bg-base'].dark, theme.dark.base);
       assert.equal(tokens['--dsw-alias-label-primary'].light, theme.light.text);
       assert.equal(tokens['--dsw-alias-label-primary'].dark, theme.dark.text);
-      assert.equal(tokens['--dsw-alias-state-error-primary'].light, theme.light.danger);
+      assert.ok(contrastRatio(tokens['--dsw-alias-state-error-primary'].light, theme.light.base) >= 4.5);
+      assert.ok(contrastRatio(tokens['--dsw-alias-state-error-primary'].dark, theme.dark.surface) >= 4.5);
+      assert.ok(contrastRatio(tokens['--dsw-alias-state-success-primary'].light, theme.light.surface) >= 4.5);
+      assert.ok(contrastRatio(tokens['--dsw-alias-state-success-primary'].dark, theme.dark.base) >= 4.5);
     }
   }
 });
@@ -148,6 +151,22 @@ test('overlay and warning surfaces keep the host static text readable', () => {
       const warnLabel = tokens['--dsw-alias-state-warn-label'][mode];
       assert.ok(contrastRatio(warnLabel, warnSurface) >= 3, theme.id + ' ' + mode + ' warning badge');
       assert.ok(contrastRatio(warnLabel, toastBg) >= 3, theme.id + ' ' + mode + ' warning toast icon');
+    }
+  }
+});
+
+test('diff line foregrounds stay readable on their tinted backgrounds', () => {
+  for (const theme of THEMES) {
+    const tokens = buildThemeTokens(theme, 'signature', null);
+    for (const mode of MODES) {
+      const addedBg = tokens['--dsw-alias-code-diff-added'][mode];
+      const addedInk = tokens['--dsw-alias-state-success-primary'][mode];
+      const deletedBg = tokens['--dsw-alias-code-diff-deleted'][mode];
+      const deletedInk = tokens['--dsw-alias-state-error-primary'][mode];
+      assert.ok(contrastRatio(addedInk, addedBg) >= 4.5, theme.id + ' ' + mode + ' added diff line');
+      assert.ok(contrastRatio(deletedInk, deletedBg) >= 4.5, theme.id + ' ' + mode + ' deleted diff line');
+      assert.ok(contrastRatio(addedInk, theme[mode].surface) >= 4.5, theme.id + ' ' + mode + ' added ink on surface');
+      assert.ok(contrastRatio(deletedInk, theme[mode].surface) >= 4.5, theme.id + ' ' + mode + ' deleted ink on surface');
     }
   }
 });

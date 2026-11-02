@@ -1752,6 +1752,19 @@ window.__ModuleLoader__.load({
       return contrastRatio(candidate, seed.base) >= 3 ? candidate : seed.accent;
     }
 
+    /**
+     * State colors double as small diff/code foregrounds. Keep the successes
+     * and errors at readable text contrast on both base and raised surfaces.
+     */
+    function ensureStatusContrast(color, seed) {
+      let candidate = color;
+      for (let step = 0; step < 6; step += 1) {
+        if (contrastRatio(candidate, seed.base) >= 4.6 && contrastRatio(candidate, seed.surface) >= 4.6) return candidate;
+        candidate = mix(candidate, seed.text, 0.14);
+      }
+      return candidate;
+    }
+
     function characterAccent(seed, character) {
       if (character === 'calm') return ensureAccentContrast(mix(seed.accent, seed.base, 0.18), seed);
       if (character === 'electric') return ensureAccentContrast(saturate(seed.accent, 0.12), seed);
@@ -1799,6 +1812,10 @@ window.__ModuleLoader__.load({
         '#0B1020',
       ]);
       const isDark = luminance(seed.base) < 0.22;
+      const success = ensureStatusContrast(seed.success, seed);
+      const danger = ensureStatusContrast(seed.danger, seed);
+      const diffAdded = mix(seed.surface, success, isDark ? 0.12 : 0.05);
+      const diffDeleted = mix(seed.surface, danger, isDark ? 0.12 : 0.05);
       const warnSurface = mix(seed.base, seed.warning, 0.12);
       const tooltipBg = isDark ? mix(seed.base, seed.text, 0.18) : seed.text;
       const tooltipKeyBg = mix(tooltipBg, '#FFFFFF', 0.18);
@@ -1860,7 +1877,7 @@ window.__ModuleLoader__.load({
         '--dsw-alias-interactive-bg-active': mix(seed.surface, accent, 0.14),
         '--dsw-alias-interactive-bg-hover': mix(seed.surface, seed.text, 0.06),
         '--dsw-alias-interactive-bg-hover-accent': withAlpha(accent, 0.11),
-        '--dsw-alias-interactive-bg-hover-danger': withAlpha(seed.danger, 0.12),
+        '--dsw-alias-interactive-bg-hover-danger': withAlpha(danger, 0.12),
         '--dsw-alias-interactive-bg-hover-solid': mix(seed.base, seed.surface, 0.6),
         '--dsw-alias-label-caption': mix(seed.muted, seed.base, 0.12),
         '--dsw-alias-label-deep-diving': accent,
@@ -1898,12 +1915,14 @@ window.__ModuleLoader__.load({
         '--dsw-alias-settings-card-stroke': mix(seed.border, seed.text, 0.16),
         '--dsw-alias-state-business-primary': accent,
         '--dsw-alias-state-business-tertiary': withAlpha(accent, 0.25),
-        '--dsw-alias-state-error-primary': seed.danger,
-        '--dsw-alias-state-error-secondary': withAlpha(seed.danger, 0.25),
+        '--dsw-alias-code-diff-added': diffAdded,
+        '--dsw-alias-code-diff-deleted': diffDeleted,
+        '--dsw-alias-state-error-primary': danger,
+        '--dsw-alias-state-error-secondary': withAlpha(danger, 0.25),
         '--dsw-alias-state-idle-primary': mix(seed.base, seed.muted, 0.55),
-        '--dsw-alias-state-success-primary': seed.success,
-        '--dsw-alias-state-success-secondary': withAlpha(seed.success, 0.22),
-        '--dsw-alias-state-success-tertiary': withAlpha(seed.success, 0.12),
+        '--dsw-alias-state-success-primary': success,
+        '--dsw-alias-state-success-secondary': withAlpha(success, 0.22),
+        '--dsw-alias-state-success-tertiary': withAlpha(success, 0.12),
         '--dsw-alias-state-warn-label': warnLabel,
         '--dsw-alias-state-warn-primary': seed.warning,
         '--dsw-alias-state-warn-secondary': withAlpha(seed.warning, 0.22),
@@ -1915,14 +1934,12 @@ window.__ModuleLoader__.load({
         '--dsw-alias-tooltip-key-bg': tooltipKeyBg,
         '--dsw-alias-turn-trigger-bg': mix(seed.base, accent, 0.05),
         '--dsw-alias-turn-trigger-bg-hover': mix(seed.base, accent, 0.09),
-        '--dsw-alias-code-diff-added': seed.success,
-        '--dsw-alias-code-diff-deleted': seed.danger,
-        '--dsw-alias-file-diff-added-bg': withAlpha(seed.success, 0.12),
-        '--dsw-alias-file-diff-added-gutter': withAlpha(seed.success, 0.18),
-        '--dsw-alias-file-diff-added-marker': seed.success,
-        '--dsw-alias-file-diff-deleted-bg': withAlpha(seed.danger, 0.12),
-        '--dsw-alias-file-diff-deleted-gutter': withAlpha(seed.danger, 0.18),
-        '--dsw-alias-file-diff-deleted-marker': seed.danger,
+        '--dsw-alias-file-diff-added-bg': withAlpha(success, 0.12),
+        '--dsw-alias-file-diff-added-gutter': withAlpha(success, 0.18),
+        '--dsw-alias-file-diff-added-marker': success,
+        '--dsw-alias-file-diff-deleted-bg': withAlpha(danger, 0.12),
+        '--dsw-alias-file-diff-deleted-gutter': withAlpha(danger, 0.18),
+        '--dsw-alias-file-diff-deleted-marker': danger,
         '--dsw-specific-sidebar-fill': seed.sidebar,
       };
     }
