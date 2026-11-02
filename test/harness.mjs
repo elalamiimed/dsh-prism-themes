@@ -14,13 +14,60 @@ export async function loadPlugin() {
   const url = new URL('../client.js', import.meta.url);
   await import(url.href + '?t=' + Date.now());
   if (registration === null) throw new Error('client.js did not call window.__ModuleLoader__.load');
-  const reactStub = {};
+  const reactStub = createReactStub();
   const module = registration.factory((specifier) => {
     if (specifier === 'react') return reactStub;
     throw new Error('unexpected require: ' + specifier);
   });
   cached = { registration, module, reactStub };
   return cached;
+}
+
+/** A tiny React-compatible element/hook stub, enough to render the studio tree. */
+export function createReactStub() {
+  const Fragment = Symbol.for('prism.fragment');
+  const createElement = (type, props, ...children) => ({
+    type,
+    props: props || {},
+    children: children.flat(),
+  });
+  return {
+    Fragment,
+    createElement,
+    useState(initial) {
+      return [typeof initial === 'function' ? initial() : initial, () => {}];
+    },
+    useEffect() {},
+    useId() {
+      return 'prism-test-id';
+    },
+  };
+}
+
+/** Render a React-element-like tree produced by the tiny stub into a plain tree. */
+export function renderTree(node) {
+  if (node === null || node === undefined || node === false) return null;
+  if (typeof node === 'string' || typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(renderTree).filter((child) => child !== null);
+  if (typeof node.type === 'function') {
+    const props = { ...node.props, children: node.children.length === 1 ? node.children[0] : node.children };
+    return renderTree(node.type(props));
+  }
+  if (node.type === Symbol.for('prism.fragment')) return node.children.map(renderTree);
+  return {
+    tag: node.type,
+    props: node.props,
+    children: node.children.map(renderTree).filter((child) => child !== null),
+  };
+}
+
+/** Count rendered elements with a given className. */
+export function countByClass(tree, className) {
+  if (tree === null || tree === undefined) return 0;
+  if (typeof tree === 'string') return 0;
+  if (Array.isArray(tree)) return tree.reduce((total, child) => total + countByClass(child, className), 0);
+  const own = typeof tree.props?.className === 'string' && tree.props.className.split(/\s+/).includes(className) ? 1 : 0;
+  return own + countByClass(tree.children, className);
 }
 
 /** Minimal localStorage backed by a Map. */

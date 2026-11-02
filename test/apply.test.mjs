@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { loadPlugin, installMemoryStorage, createFakeTheme } from './harness.mjs';
+import { loadPlugin, installMemoryStorage, createFakeTheme, renderTree, countByClass } from './harness.mjs';
 
 const { module } = await loadPlugin();
 const { createEngine, THEME_BY_ID, SOURCE, STORAGE_KEY } = module.__test;
@@ -167,6 +167,12 @@ test('apply registers locale, a live override, and the settings page', () => {
   assert.equal(typeof page.options.label, 'function');
   assert.equal(page.options.label(), 'prism-themes:nav.label');
   assert.equal(typeof page.component, 'function');
+
+  const tree = renderTree(page.component({ t: (key) => key }));
+  assert.ok(tree);
+  assert.equal(countByClass(tree, 'prism-hero'), 1);
+  assert.equal(countByClass(tree, 'prism-card'), 24);
+  assert.equal(countByClass(tree, 'prism-swatch') > 24 * 4, true);
 
   for (const cleanup of records.cleanups) cleanup();
 });
