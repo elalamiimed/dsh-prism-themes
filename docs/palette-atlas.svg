@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1216" height="1104" viewBox="0 0 1216 1104" role="img" aria-label="Prism Theme Studio palette atlas">
+<rect width="1216" height="1104" fill="#0B1220"/>
+<text x="32" y="44" fill="#F5F8FD" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="-0.01em">Prism Theme Studio</text>
+<text x="32" y="70" fill="#A7B7CF" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="13">24 paired light/dark palettes across six moods · generated from the shipped seed data</text>
+<g><rect x="32" y="92" width="276" height="150" rx="14" fill="#F5F8FE" stroke="#D5DAE4"/>
+<text x="48" y="120" fill="#0B1526" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">DeepSeek Daylight</text>
+<text x="48" y="138" fill="#606B7E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">SIGNATURE</text>
+<text x="48" y="156" fill="#606B7E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Clear morning light over a deep blue current.</text>
+<rect x="48" y="168" width="118" height="56" rx="8" fill="#FFFFFF" stroke="#D5DAE4"/>
+<text x="58" y="184" fill="#606B7E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="64" cy="204" r="7" fill="#F5F8FE" stroke="#D5DAE4"/>
+<circle cx="84" cy="204" r="7" fill="#1D4ED8" stroke="#D5DAE4"/>
+<circle cx="104" cy="204" r="7" fill="#0B1526" stroke="#D5DAE4"/>
+<circle cx="124" cy="204" r="7" fill="#EFF4FD" stroke="#D5DAE4"/>
+<rect x="174" y="168" width="118" height="56" rx="8" fill="#111A2E" stroke="#2C3241"/>
+<text x="184" y="184" fill="#898E97" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="190" cy="204" r="7" fill="#0A1020" stroke="#2C3241"/>
+<circle cx="210" cy="204" r="7" fill="#6EA8FF" stroke="#2C3241"/>
+<circle cx="230" cy="204" r="7" fill="#E8EEFA" stroke="#2C3241"/>
+<circle cx="250" cy="204" r="7" fill="#070C18" stroke="#2C3241"/>
+</g>
+<g><rect x="324" y="92" width="276" height="150" rx="14" fill="#F1F6FA" stroke="#D0D9E0"/>
+<text x="340" y="120" fill="#081A24" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">DeepSeek Abyss</text>
+<text x="340" y="138" fill="#5A6B76" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">SIGNATURE</text>
+<text x="340" y="156" fill="#5A6B76" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Where the current runs quiet and cold.</text>
+<rect x="340" y="168" width="118" height="56" rx="8" fill="#FBFDFF" stroke="#D0D9E0"/>
+<text x="350" y="184" fill="#5A6B76" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="356" cy="204" r="7" fill="#F1F6FA" stroke="#D0D9E0"/>
+<circle cx="376" cy="204" r="7" fill="#0369A1" stroke="#D0D9E0"/>
+<circle cx="396" cy="204" r="7" fill="#081A24" stroke="#D0D9E0"/>
+<circle cx="416" cy="204" r="7" fill="#EAF1F7" stroke="#D0D9E0"/>
+<rect x="466" y="168" width="118" height="56" rx="8" fill="#0B1826" stroke="#25313D"/>
+<text x="476" y="184" fill="#828D95" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="482" cy="204" r="7" fill="#050D16" stroke="#25313D"/>
+<circle cx="502" cy="204" r="7" fill="#38BDF8" stroke="#25313D"/>
+<circle cx="522" cy="204" r="7" fill="#DCEAF5" stroke="#25313D"/>
+<circle cx="542" cy="204" r="7" fill="#030A12" stroke="#25313D"/>
+</g>
+<g><rect x="616" y="92" width="276" height="150" rx="14" fill="#F6F6F2" stroke="#DADAD1"/>
+<text x="632" y="120" fill="#101420" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Cobalt Ink</text>
+<text x="632" y="138" fill="#656976" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">SIGNATURE</text>
+<text x="632" y="156" fill="#656976" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Cobalt pressed into paper, sharp and deliber…</text>
+<rect x="632" y="168" width="118" height="56" rx="8" fill="#FFFFFF" stroke="#DADAD1"/>
+<text x="642" y="184" fill="#656976" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="648" cy="204" r="7" fill="#F6F6F2" stroke="#DADAD1"/>
+<circle cx="668" cy="204" r="7" fill="#1E40AF" stroke="#DADAD1"/>
+<circle cx="688" cy="204" r="7" fill="#101420" stroke="#DADAD1"/>
+<circle cx="708" cy="204" r="7" fill="#EFEFEA" stroke="#DADAD1"/>
+<rect x="758" y="168" width="118" height="56" rx="8" fill="#121826" stroke="#2B303C"/>
+<text x="768" y="184" fill="#888C95" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="774" cy="204" r="7" fill="#0B0F17" stroke="#2B303C"/>
+<circle cx="794" cy="204" r="7" fill="#5B8CFF" stroke="#2B303C"/>
+<circle cx="814" cy="204" r="7" fill="#E6EAF2" stroke="#2B303C"/>
+<circle cx="834" cy="204" r="7" fill="#070A10" stroke="#2B303C"/>
+</g>
+<g><rect x="908" y="92" width="276" height="150" rx="14" fill="#F3F3FB" stroke="#D6D6E2"/>
+<text x="924" y="120" fill="#14142A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Blue Hour</text>
+<text x="924" y="138" fill="#65667B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">SIGNATURE</text>
+<text x="924" y="156" fill="#65667B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">The hush between sunset and streetlights.</text>
+<rect x="924" y="168" width="118" height="56" rx="8" fill="#FCFCFF" stroke="#D6D6E2"/>
+<text x="934" y="184" fill="#65667B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="940" cy="204" r="7" fill="#F3F3FB" stroke="#D6D6E2"/>
+<circle cx="960" cy="204" r="7" fill="#4F46E5" stroke="#D6D6E2"/>
+<circle cx="980" cy="204" r="7" fill="#14142A" stroke="#D6D6E2"/>
+<circle cx="1000" cy="204" r="7" fill="#EDEDF8" stroke="#D6D6E2"/>
+<rect x="1050" y="168" width="118" height="56" rx="8" fill="#16162A" stroke="#2E2F3E"/>
+<text x="1060" y="184" fill="#8C8B97" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="1066" cy="204" r="7" fill="#0C0C19" stroke="#2E2F3E"/>
+<circle cx="1086" cy="204" r="7" fill="#A5B4FC" stroke="#2E2F3E"/>
+<circle cx="1106" cy="204" r="7" fill="#E9E7F7" stroke="#2E2F3E"/>
+<circle cx="1126" cy="204" r="7" fill="#080812" stroke="#2E2F3E"/>
+</g>
+<g><rect x="32" y="258" width="276" height="150" rx="14" fill="#F7F2F9" stroke="#DCD4DF"/>
+<text x="48" y="286" fill="#1D1027" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Midnight Orchid</text>
+<text x="48" y="304" fill="#6E6478" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOCTURNE</text>
+<text x="48" y="322" fill="#6E6478" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Orchid petals under a violet midnight.</text>
+<rect x="48" y="334" width="118" height="56" rx="8" fill="#FEFBFF" stroke="#DCD4DF"/>
+<text x="58" y="350" fill="#6E6478" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="64" cy="370" r="7" fill="#F7F2F9" stroke="#DCD4DF"/>
+<circle cx="84" cy="370" r="7" fill="#7E22CE" stroke="#DCD4DF"/>
+<circle cx="104" cy="370" r="7" fill="#1D1027" stroke="#DCD4DF"/>
+<circle cx="124" cy="370" r="7" fill="#F2EAF6" stroke="#DCD4DF"/>
+<rect x="174" y="334" width="118" height="56" rx="8" fill="#1F1829" stroke="#35303F"/>
+<text x="184" y="350" fill="#938C99" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="190" cy="370" r="7" fill="#130F1B" stroke="#35303F"/>
+<circle cx="210" cy="370" r="7" fill="#C084FC" stroke="#35303F"/>
+<circle cx="230" cy="370" r="7" fill="#EDE4F5" stroke="#35303F"/>
+<circle cx="250" cy="370" r="7" fill="#0D0A14" stroke="#35303F"/>
+</g>
+<g><rect x="324" y="258" width="276" height="150" rx="14" fill="#F4F5F7" stroke="#D6DAE2"/>
+<text x="340" y="286" fill="#14171D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Obsidian Ember</text>
+<text x="340" y="304" fill="#646971" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOCTURNE</text>
+<text x="340" y="322" fill="#646971" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Obsidian walls, one ember still breathing.</text>
+<rect x="340" y="334" width="118" height="56" rx="8" fill="#FFFFFF" stroke="#D6DAE2"/>
+<text x="350" y="350" fill="#646971" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="356" cy="370" r="7" fill="#F4F5F7" stroke="#D6DAE2"/>
+<circle cx="376" cy="370" r="7" fill="#9A3412" stroke="#D6DAE2"/>
+<circle cx="396" cy="370" r="7" fill="#14171D" stroke="#D6DAE2"/>
+<circle cx="416" cy="370" r="7" fill="#EDEFF2" stroke="#D6DAE2"/>
+<rect x="466" y="334" width="118" height="56" rx="8" fill="#13151A" stroke="#2B2E35"/>
+<text x="476" y="350" fill="#878A93" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="482" cy="370" r="7" fill="#0A0B0E" stroke="#2B2E35"/>
+<circle cx="502" cy="370" r="7" fill="#FF7A45" stroke="#2B2E35"/>
+<circle cx="522" cy="370" r="7" fill="#E9EAEE" stroke="#2B2E35"/>
+<circle cx="542" cy="370" r="7" fill="#060709" stroke="#2B2E35"/>
+</g>
+<g><rect x="616" y="258" width="276" height="150" rx="14" fill="#F6F2EC" stroke="#DCD5CB"/>
+<text x="632" y="286" fill="#1E1712" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Ember Noir</text>
+<text x="632" y="304" fill="#6E6560" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOCTURNE</text>
+<text x="632" y="322" fill="#6E6560" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Burnt umber, cold smoke, a dying fire.</text>
+<rect x="632" y="334" width="118" height="56" rx="8" fill="#FDFBF7" stroke="#DCD5CB"/>
+<text x="642" y="350" fill="#6E6560" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="648" cy="370" r="7" fill="#F6F2EC" stroke="#DCD5CB"/>
+<circle cx="668" cy="370" r="7" fill="#B45309" stroke="#DCD5CB"/>
+<circle cx="688" cy="370" r="7" fill="#1E1712" stroke="#DCD5CB"/>
+<circle cx="708" cy="370" r="7" fill="#F0EAE2" stroke="#DCD5CB"/>
+<rect x="758" y="334" width="118" height="56" rx="8" fill="#1E1714" stroke="#372F29"/>
+<text x="768" y="350" fill="#928B83" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="774" cy="370" r="7" fill="#110D0A" stroke="#372F29"/>
+<circle cx="794" cy="370" r="7" fill="#F59E0B" stroke="#372F29"/>
+<circle cx="814" cy="370" r="7" fill="#EFE6DE" stroke="#372F29"/>
+<circle cx="834" cy="370" r="7" fill="#0B0806" stroke="#372F29"/>
+</g>
+<g><rect x="908" y="258" width="276" height="150" rx="14" fill="#EEF6F5" stroke="#CDDBD9"/>
+<text x="924" y="286" fill="#08201E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Cyber Tide</text>
+<text x="924" y="304" fill="#576C6A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOCTURNE</text>
+<text x="924" y="322" fill="#576C6A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Neon currents pulling through deep water.</text>
+<rect x="924" y="334" width="118" height="56" rx="8" fill="#FAFEFD" stroke="#CDDBD9"/>
+<text x="934" y="350" fill="#576C6A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="940" cy="370" r="7" fill="#EEF6F5" stroke="#CDDBD9"/>
+<circle cx="960" cy="370" r="7" fill="#0F766E" stroke="#CDDBD9"/>
+<circle cx="980" cy="370" r="7" fill="#08201E" stroke="#CDDBD9"/>
+<circle cx="1000" cy="370" r="7" fill="#E8F3F1" stroke="#CDDBD9"/>
+<rect x="1050" y="334" width="118" height="56" rx="8" fill="#0B1A18" stroke="#233331"/>
+<text x="1060" y="350" fill="#7C908C" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="1066" cy="370" r="7" fill="#050F0E" stroke="#233331"/>
+<circle cx="1086" cy="370" r="7" fill="#2DD4BF" stroke="#233331"/>
+<circle cx="1106" cy="370" r="7" fill="#D9F2EE" stroke="#233331"/>
+<circle cx="1126" cy="370" r="7" fill="#030A09" stroke="#233331"/>
+</g>
+<g><rect x="32" y="424" width="276" height="150" rx="14" fill="#F1F6F3" stroke="#CFD9D3"/>
+<text x="48" y="452" fill="#10241D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Sea Glass</text>
+<text x="48" y="470" fill="#5A6C65" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">BOTANICAL</text>
+<text x="48" y="488" fill="#5A6C65" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Salt-worn glass in soft morning green.</text>
+<rect x="48" y="500" width="118" height="56" rx="8" fill="#FAFDFB" stroke="#CFD9D3"/>
+<text x="58" y="516" fill="#5A6C65" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="64" cy="536" r="7" fill="#F1F6F3" stroke="#CFD9D3"/>
+<circle cx="84" cy="536" r="7" fill="#2F7D62" stroke="#CFD9D3"/>
+<circle cx="104" cy="536" r="7" fill="#10241D" stroke="#CFD9D3"/>
+<circle cx="124" cy="536" r="7" fill="#EAF1EC" stroke="#CFD9D3"/>
+<rect x="174" y="500" width="118" height="56" rx="8" fill="#0C1D18" stroke="#24352F"/>
+<text x="184" y="516" fill="#83908B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="190" cy="536" r="7" fill="#071410" stroke="#24352F"/>
+<circle cx="210" cy="536" r="7" fill="#4ECCA3" stroke="#24352F"/>
+<circle cx="230" cy="536" r="7" fill="#DDEFE8" stroke="#24352F"/>
+<circle cx="250" cy="536" r="7" fill="#040D0A" stroke="#24352F"/>
+</g>
+<g><rect x="324" y="424" width="276" height="150" rx="14" fill="#F3F5EC" stroke="#D6D9CC"/>
+<text x="340" y="452" fill="#1B2412" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Green Room</text>
+<text x="340" y="470" fill="#626B5A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">BOTANICAL</text>
+<text x="340" y="488" fill="#626B5A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">A quiet room full of growing things.</text>
+<rect x="340" y="500" width="118" height="56" rx="8" fill="#FCFDF7" stroke="#D6D9CC"/>
+<text x="350" y="516" fill="#626B5A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="356" cy="536" r="7" fill="#F3F5EC" stroke="#D6D9CC"/>
+<circle cx="376" cy="536" r="7" fill="#2F6B34" stroke="#D6D9CC"/>
+<circle cx="396" cy="536" r="7" fill="#1B2412" stroke="#D6D9CC"/>
+<circle cx="416" cy="536" r="7" fill="#EDF0E3" stroke="#D6D9CC"/>
+<rect x="466" y="500" width="118" height="56" rx="8" fill="#151C12" stroke="#2C342A"/>
+<text x="476" y="516" fill="#8A8F83" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="482" cy="536" r="7" fill="#0D120B" stroke="#2C342A"/>
+<circle cx="502" cy="536" r="7" fill="#9BCF53" stroke="#2C342A"/>
+<circle cx="522" cy="536" r="7" fill="#E4EBDC" stroke="#2C342A"/>
+<circle cx="542" cy="536" r="7" fill="#080C06" stroke="#2C342A"/>
+</g>
+<g><rect x="616" y="424" width="276" height="150" rx="14" fill="#F4F2E9" stroke="#D9D6CA"/>
+<text x="632" y="452" fill="#24211A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Moss Clay</text>
+<text x="632" y="470" fill="#6A665E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">BOTANICAL</text>
+<text x="632" y="488" fill="#6A665E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Moss over clay, rain long finished.</text>
+<rect x="632" y="500" width="118" height="56" rx="8" fill="#FCFBF4" stroke="#D9D6CA"/>
+<text x="642" y="516" fill="#6A665E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="648" cy="536" r="7" fill="#F4F2E9" stroke="#D9D6CA"/>
+<circle cx="668" cy="536" r="7" fill="#5C7A2E" stroke="#D9D6CA"/>
+<circle cx="688" cy="536" r="7" fill="#24211A" stroke="#D9D6CA"/>
+<circle cx="708" cy="536" r="7" fill="#EFEDE1" stroke="#D9D6CA"/>
+<rect x="758" y="500" width="118" height="56" rx="8" fill="#1E1B11" stroke="#353227"/>
+<text x="768" y="516" fill="#928E82" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="774" cy="536" r="7" fill="#13110A" stroke="#353227"/>
+<circle cx="794" cy="536" r="7" fill="#C7B96A" stroke="#353227"/>
+<circle cx="814" cy="536" r="7" fill="#EAE6D6" stroke="#353227"/>
+<circle cx="834" cy="536" r="7" fill="#0C0A06" stroke="#353227"/>
+</g>
+<g><rect x="908" y="424" width="276" height="150" rx="14" fill="#EFF6F1" stroke="#D0DBD3"/>
+<text x="924" y="452" fill="#0F2017" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Frost Garden</text>
+<text x="924" y="470" fill="#5C6C63" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">BOTANICAL</text>
+<text x="924" y="488" fill="#5C6C63" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Frost on the greenhouse, green beneath.</text>
+<rect x="924" y="500" width="118" height="56" rx="8" fill="#FBFEFA" stroke="#D0DBD3"/>
+<text x="934" y="516" fill="#5C6C63" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="940" cy="536" r="7" fill="#EFF6F1" stroke="#D0DBD3"/>
+<circle cx="960" cy="536" r="7" fill="#166534" stroke="#D0DBD3"/>
+<circle cx="980" cy="536" r="7" fill="#0F2017" stroke="#D0DBD3"/>
+<circle cx="1000" cy="536" r="7" fill="#E8F2EB" stroke="#D0DBD3"/>
+<rect x="1050" y="500" width="118" height="56" rx="8" fill="#0F1E19" stroke="#263531"/>
+<text x="1060" y="516" fill="#85918A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="1066" cy="536" r="7" fill="#081310" stroke="#263531"/>
+<circle cx="1086" cy="536" r="7" fill="#6EE7B7" stroke="#263531"/>
+<circle cx="1106" cy="536" r="7" fill="#E0EFE7" stroke="#263531"/>
+<circle cx="1126" cy="536" r="7" fill="#040D0A" stroke="#263531"/>
+</g>
+<g><rect x="32" y="590" width="276" height="150" rx="14" fill="#F6F1E4" stroke="#DBD5C5"/>
+<text x="48" y="618" fill="#221B10" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Terminal Amber</text>
+<text x="48" y="636" fill="#6D655B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOSTALGIA</text>
+<text x="48" y="654" fill="#6D655B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Old phosphor glow, patient and warm.</text>
+<rect x="48" y="666" width="118" height="56" rx="8" fill="#FEFAF0" stroke="#DBD5C5"/>
+<text x="58" y="682" fill="#6D655B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="64" cy="702" r="7" fill="#F6F1E4" stroke="#DBD5C5"/>
+<circle cx="84" cy="702" r="7" fill="#A16207" stroke="#DBD5C5"/>
+<circle cx="104" cy="702" r="7" fill="#221B10" stroke="#DBD5C5"/>
+<circle cx="124" cy="702" r="7" fill="#F0EAD9" stroke="#DBD5C5"/>
+<rect x="174" y="666" width="118" height="56" rx="8" fill="#1D1810" stroke="#353027"/>
+<text x="184" y="682" fill="#948C76" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="190" cy="702" r="7" fill="#100D08" stroke="#353027"/>
+<circle cx="210" cy="702" r="7" fill="#FBBF24" stroke="#353027"/>
+<circle cx="230" cy="702" r="7" fill="#F2E6C9" stroke="#353027"/>
+<circle cx="250" cy="702" r="7" fill="#0A0805" stroke="#353027"/>
+</g>
+<g><rect x="324" y="590" width="276" height="150" rx="14" fill="#F3EFE4" stroke="#D9D3C5"/>
+<text x="340" y="618" fill="#1B1813" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Newsprint</text>
+<text x="340" y="636" fill="#69655C" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOSTALGIA</text>
+<text x="340" y="654" fill="#69655C" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Ink and pulp, folded on the porch.</text>
+<rect x="340" y="666" width="118" height="56" rx="8" fill="#FBF8EF" stroke="#D9D3C5"/>
+<text x="350" y="682" fill="#69655C" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="356" cy="702" r="7" fill="#F3EFE4" stroke="#D9D3C5"/>
+<circle cx="376" cy="702" r="7" fill="#2B2118" stroke="#D9D3C5"/>
+<circle cx="396" cy="702" r="7" fill="#1B1813" stroke="#D9D3C5"/>
+<circle cx="416" cy="702" r="7" fill="#EFEAE0" stroke="#D9D3C5"/>
+<rect x="466" y="666" width="118" height="56" rx="8" fill="#1D1A16" stroke="#35312A"/>
+<text x="476" y="682" fill="#928D84" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="482" cy="702" r="7" fill="#14120F" stroke="#35312A"/>
+<circle cx="502" cy="702" r="7" fill="#E9DCC3" stroke="#35312A"/>
+<circle cx="522" cy="702" r="7" fill="#EDE7DB" stroke="#35312A"/>
+<circle cx="542" cy="702" r="7" fill="#0D0B09" stroke="#35312A"/>
+</g>
+<g><rect x="616" y="590" width="276" height="150" rx="14" fill="#F4F1EF" stroke="#DDD5CF"/>
+<text x="632" y="618" fill="#17131A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Arcade Neon</text>
+<text x="632" y="636" fill="#6A656D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOSTALGIA</text>
+<text x="632" y="654" fill="#6A656D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Tokens, high scores, and cabinet glow.</text>
+<rect x="632" y="666" width="118" height="56" rx="8" fill="#FDFBFA" stroke="#DDD5CF"/>
+<text x="642" y="682" fill="#6A656D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="648" cy="702" r="7" fill="#F4F1EF" stroke="#DDD5CF"/>
+<circle cx="668" cy="702" r="7" fill="#A21CAF" stroke="#DDD5CF"/>
+<circle cx="688" cy="702" r="7" fill="#17131A" stroke="#DDD5CF"/>
+<circle cx="708" cy="702" r="7" fill="#EFEAE7" stroke="#DDD5CF"/>
+<rect x="758" y="666" width="118" height="56" rx="8" fill="#171522" stroke="#2F2E3A"/>
+<text x="768" y="682" fill="#8C8A93" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="774" cy="702" r="7" fill="#0B0A12" stroke="#2F2E3A"/>
+<circle cx="794" cy="702" r="7" fill="#E879F9" stroke="#2F2E3A"/>
+<circle cx="814" cy="702" r="7" fill="#F0EDF7" stroke="#2F2E3A"/>
+<circle cx="834" cy="702" r="7" fill="#070610" stroke="#2F2E3A"/>
+</g>
+<g><rect x="908" y="590" width="276" height="150" rx="14" fill="#F9F0F6" stroke="#E0D4DC"/>
+<text x="924" y="618" fill="#24151F" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Vaporwave</text>
+<text x="924" y="636" fill="#73626D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">NOSTALGIA</text>
+<text x="924" y="654" fill="#73626D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Sunset gradients on a paused tape.</text>
+<rect x="924" y="666" width="118" height="56" rx="8" fill="#FFFBFE" stroke="#E0D4DC"/>
+<text x="934" y="682" fill="#73626D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="940" cy="702" r="7" fill="#F9F0F6" stroke="#E0D4DC"/>
+<circle cx="960" cy="702" r="7" fill="#0E7490" stroke="#E0D4DC"/>
+<circle cx="980" cy="702" r="7" fill="#24151F" stroke="#E0D4DC"/>
+<circle cx="1000" cy="702" r="7" fill="#F6E9F2" stroke="#E0D4DC"/>
+<rect x="1050" y="666" width="118" height="56" rx="8" fill="#20152A" stroke="#352F3E"/>
+<text x="1060" y="682" fill="#948A97" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="1066" cy="702" r="7" fill="#130C1B" stroke="#352F3E"/>
+<circle cx="1086" cy="702" r="7" fill="#67E8F9" stroke="#352F3E"/>
+<circle cx="1106" cy="702" r="7" fill="#F2E5F7" stroke="#352F3E"/>
+<circle cx="1126" cy="702" r="7" fill="#0E0814" stroke="#352F3E"/>
+</g>
+<g><rect x="32" y="756" width="276" height="150" rx="14" fill="#F4F5F6" stroke="#D1D8DF"/>
+<text x="48" y="784" fill="#16181B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Graphite</text>
+<text x="48" y="802" fill="#646971" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">MINIMAL</text>
+<text x="48" y="820" fill="#646971" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Precision gray, without the noise.</text>
+<rect x="48" y="832" width="118" height="56" rx="8" fill="#FCFCFD" stroke="#D1D8DF"/>
+<text x="58" y="848" fill="#646971" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="64" cy="868" r="7" fill="#F4F5F6" stroke="#D1D8DF"/>
+<circle cx="84" cy="868" r="7" fill="#475569" stroke="#D1D8DF"/>
+<circle cx="104" cy="868" r="7" fill="#16181B" stroke="#D1D8DF"/>
+<circle cx="124" cy="868" r="7" fill="#EFF1F2" stroke="#D1D8DF"/>
+<rect x="174" y="832" width="118" height="56" rx="8" fill="#1A1D21" stroke="#2F343A"/>
+<text x="184" y="848" fill="#8A9098" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="190" cy="868" r="7" fill="#121417" stroke="#2F343A"/>
+<circle cx="210" cy="868" r="7" fill="#94A3B8" stroke="#2F343A"/>
+<circle cx="230" cy="868" r="7" fill="#E6E8EB" stroke="#2F343A"/>
+<circle cx="250" cy="868" r="7" fill="#0C0E10" stroke="#2F343A"/>
+</g>
+<g><rect x="324" y="756" width="276" height="150" rx="14" fill="#F2F5F7" stroke="#D1D9DF"/>
+<text x="340" y="784" fill="#122028" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Porcelain</text>
+<text x="340" y="802" fill="#5D6A73" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">MINIMAL</text>
+<text x="340" y="820" fill="#5D6A73" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Cool clay glaze, almost quiet.</text>
+<rect x="340" y="832" width="118" height="56" rx="8" fill="#FBFDFE" stroke="#D1D9DF"/>
+<text x="350" y="848" fill="#5D6A73" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="356" cy="868" r="7" fill="#F2F5F7" stroke="#D1D9DF"/>
+<circle cx="376" cy="868" r="7" fill="#3E6B7A" stroke="#D1D9DF"/>
+<circle cx="396" cy="868" r="7" fill="#122028" stroke="#D1D9DF"/>
+<circle cx="416" cy="868" r="7" fill="#EDF2F5" stroke="#D1D9DF"/>
+<rect x="466" y="832" width="118" height="56" rx="8" fill="#151D21" stroke="#2A3439"/>
+<text x="476" y="848" fill="#869196" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="482" cy="868" r="7" fill="#0E1417" stroke="#2A3439"/>
+<circle cx="502" cy="868" r="7" fill="#7FB3C2" stroke="#2A3439"/>
+<circle cx="522" cy="868" r="7" fill="#E2EAEE" stroke="#2A3439"/>
+<circle cx="542" cy="868" r="7" fill="#090E11" stroke="#2A3439"/>
+</g>
+<g><rect x="616" y="756" width="276" height="150" rx="14" fill="#F8F3E6" stroke="#DDD7C7"/>
+<text x="632" y="784" fill="#241E10" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Saffron Paper</text>
+<text x="632" y="802" fill="#6D675A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">MINIMAL</text>
+<text x="632" y="820" fill="#6D675A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Warm paper and a single saffron line.</text>
+<rect x="632" y="832" width="118" height="56" rx="8" fill="#FFFDF5" stroke="#DDD7C7"/>
+<text x="642" y="848" fill="#6D675A" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="648" cy="868" r="7" fill="#F8F3E6" stroke="#DDD7C7"/>
+<circle cx="668" cy="868" r="7" fill="#854D0E" stroke="#DDD7C7"/>
+<circle cx="688" cy="868" r="7" fill="#241E10" stroke="#DDD7C7"/>
+<circle cx="708" cy="868" r="7" fill="#F3EDDD" stroke="#DDD7C7"/>
+<rect x="758" y="832" width="118" height="56" rx="8" fill="#1D1910" stroke="#353126"/>
+<text x="768" y="848" fill="#948C7D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="774" cy="868" r="7" fill="#14110A" stroke="#353126"/>
+<circle cx="794" cy="868" r="7" fill="#FACC15" stroke="#353126"/>
+<circle cx="814" cy="868" r="7" fill="#EFE6D2" stroke="#353126"/>
+<circle cx="834" cy="868" r="7" fill="#0D0B06" stroke="#353126"/>
+</g>
+<g><rect x="908" y="756" width="276" height="150" rx="14" fill="#F8F1EA" stroke="#DFD5CB"/>
+<text x="924" y="784" fill="#251710" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Terracotta Sun</text>
+<text x="924" y="802" fill="#73645D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">MINIMAL</text>
+<text x="924" y="820" fill="#73645D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Clay rooftops holding late orange light.</text>
+<rect x="924" y="832" width="118" height="56" rx="8" fill="#FFFBF6" stroke="#DFD5CB"/>
+<text x="934" y="848" fill="#73645D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="940" cy="868" r="7" fill="#F8F1EA" stroke="#DFD5CB"/>
+<circle cx="960" cy="868" r="7" fill="#B5482A" stroke="#DFD5CB"/>
+<circle cx="980" cy="868" r="7" fill="#251710" stroke="#DFD5CB"/>
+<circle cx="1000" cy="868" r="7" fill="#F4EAE0" stroke="#DFD5CB"/>
+<rect x="1050" y="832" width="118" height="56" rx="8" fill="#231812" stroke="#3B2F29"/>
+<text x="1060" y="848" fill="#978C82" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="1066" cy="868" r="7" fill="#170F0B" stroke="#3B2F29"/>
+<circle cx="1086" cy="868" r="7" fill="#FDBA74" stroke="#3B2F29"/>
+<circle cx="1106" cy="868" r="7" fill="#F2E3D7" stroke="#3B2F29"/>
+<circle cx="1126" cy="868" r="7" fill="#0F0906" stroke="#3B2F29"/>
+</g>
+<g><rect x="32" y="922" width="276" height="150" rx="14" fill="#FDF0F5" stroke="#E2D1D8"/>
+<text x="48" y="950" fill="#29141E" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Bubblegum</text>
+<text x="48" y="968" fill="#78616B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">PLAYFUL</text>
+<text x="48" y="986" fill="#78616B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Sugar-pink pop with a steady heart.</text>
+<rect x="48" y="998" width="118" height="56" rx="8" fill="#FFF9FC" stroke="#E2D1D8"/>
+<text x="58" y="1014" fill="#78616B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="64" cy="1034" r="7" fill="#FDF0F5" stroke="#E2D1D8"/>
+<circle cx="84" cy="1034" r="7" fill="#DA2576" stroke="#E2D1D8"/>
+<circle cx="104" cy="1034" r="7" fill="#29141E" stroke="#E2D1D8"/>
+<circle cx="124" cy="1034" r="7" fill="#FBEAF1" stroke="#E2D1D8"/>
+<rect x="174" y="998" width="118" height="56" rx="8" fill="#23141E" stroke="#3B2C37"/>
+<text x="184" y="1014" fill="#978990" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="190" cy="1034" r="7" fill="#160B13" stroke="#3B2C37"/>
+<circle cx="210" cy="1034" r="7" fill="#F472B6" stroke="#3B2C37"/>
+<circle cx="230" cy="1034" r="7" fill="#F7E4EE" stroke="#3B2C37"/>
+<circle cx="250" cy="1034" r="7" fill="#10080D" stroke="#3B2C37"/>
+</g>
+<g><rect x="324" y="922" width="276" height="150" rx="14" fill="#FDF1E4" stroke="#E1D4C5"/>
+<text x="340" y="950" fill="#2A1809" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Mango Tango</text>
+<text x="340" y="968" fill="#766456" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">PLAYFUL</text>
+<text x="340" y="986" fill="#766456" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Ripe mango energy, no sunscreen.</text>
+<rect x="340" y="998" width="118" height="56" rx="8" fill="#FFFAF3" stroke="#E1D4C5"/>
+<text x="350" y="1014" fill="#766456" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="356" cy="1034" r="7" fill="#FDF1E4" stroke="#E1D4C5"/>
+<circle cx="376" cy="1034" r="7" fill="#B7410E" stroke="#E1D4C5"/>
+<circle cx="396" cy="1034" r="7" fill="#2A1809" stroke="#E1D4C5"/>
+<circle cx="416" cy="1034" r="7" fill="#FBEBD9" stroke="#E1D4C5"/>
+<rect x="466" y="998" width="118" height="56" rx="8" fill="#24180F" stroke="#3B3026"/>
+<text x="476" y="1014" fill="#988C7D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="482" cy="1034" r="7" fill="#170F08" stroke="#3B3026"/>
+<circle cx="502" cy="1034" r="7" fill="#FB923C" stroke="#3B3026"/>
+<circle cx="522" cy="1034" r="7" fill="#F7E7D4" stroke="#3B3026"/>
+<circle cx="542" cy="1034" r="7" fill="#0F0904" stroke="#3B3026"/>
+</g>
+<g><rect x="616" y="922" width="276" height="150" rx="14" fill="#F6F2FB" stroke="#DAD5E1"/>
+<text x="632" y="950" fill="#1E1530" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Lavender Haze</text>
+<text x="632" y="968" fill="#6B6579" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">PLAYFUL</text>
+<text x="632" y="986" fill="#6B6579" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Soft lilac fog over a quiet garden.</text>
+<rect x="632" y="998" width="118" height="56" rx="8" fill="#FEFCFF" stroke="#DAD5E1"/>
+<text x="642" y="1014" fill="#6B6579" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="648" cy="1034" r="7" fill="#F6F2FB" stroke="#DAD5E1"/>
+<circle cx="668" cy="1034" r="7" fill="#7C3AED" stroke="#DAD5E1"/>
+<circle cx="688" cy="1034" r="7" fill="#1E1530" stroke="#DAD5E1"/>
+<circle cx="708" cy="1034" r="7" fill="#F1EBF8" stroke="#DAD5E1"/>
+<rect x="758" y="998" width="118" height="56" rx="8" fill="#1E1629" stroke="#342F3E"/>
+<text x="768" y="1014" fill="#918B98" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="774" cy="1034" r="7" fill="#120D1A" stroke="#342F3E"/>
+<circle cx="794" cy="1034" r="7" fill="#C4B5FD" stroke="#342F3E"/>
+<circle cx="814" cy="1034" r="7" fill="#EFE6F8" stroke="#342F3E"/>
+<circle cx="834" cy="1034" r="7" fill="#0B0711" stroke="#342F3E"/>
+</g>
+<g><rect x="908" y="922" width="276" height="150" rx="14" fill="#F4F8E7" stroke="#D5DAC7"/>
+<text x="924" y="950" fill="#1C2409" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="650">Citrus Pop</text>
+<text x="924" y="968" fill="#656C58" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.06em">PLAYFUL</text>
+<text x="924" y="986" fill="#656C58" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="9.5">Lime soda fizz, sharp and bright.</text>
+<rect x="924" y="998" width="118" height="56" rx="8" fill="#FBFEF4" stroke="#D5DAC7"/>
+<text x="934" y="1014" fill="#656C58" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">LIGHT</text>
+<circle cx="940" cy="1034" r="7" fill="#F4F8E7" stroke="#D5DAC7"/>
+<circle cx="960" cy="1034" r="7" fill="#3F6212" stroke="#D5DAC7"/>
+<circle cx="980" cy="1034" r="7" fill="#1C2409" stroke="#D5DAC7"/>
+<circle cx="1000" cy="1034" r="7" fill="#F0F5DF" stroke="#D5DAC7"/>
+<rect x="1050" y="998" width="118" height="56" rx="8" fill="#171D0B" stroke="#2F3424"/>
+<text x="1060" y="1014" fill="#8C907B" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="8" font-weight="600">DARK</text>
+<circle cx="1066" cy="1034" r="7" fill="#0F1306" stroke="#2F3424"/>
+<circle cx="1086" cy="1034" r="7" fill="#A3E635" stroke="#2F3424"/>
+<circle cx="1106" cy="1034" r="7" fill="#EDF3D8" stroke="#2F3424"/>
+<circle cx="1126" cy="1034" r="7" fill="#090C04" stroke="#2F3424"/>
+</g>
+</svg>

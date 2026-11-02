@@ -1,0 +1,8 @@
+# dsh-prism-themes bundle patch layer.
+#
+# Prism is a browser-side theme studio: the Host half has no services or routes.
+# Its Client module is composed from package.json `dsh.client` (platform "web",
+# bundle export "./client") and registers into the Settings section slot.
+- insert:
+    - id: dsh-prism-themes
+      name: dsh-prism-themes

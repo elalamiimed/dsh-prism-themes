@@ -1,0 +1,79 @@
+{
+  "name": "dsh-prism-themes",
+  "version": "1.0.0",
+  "description": "Prism Theme Studio: 24 hand-tuned light/dark palettes, six moods, scheme control, custom accents, favorites and a surprise shuffle for the DeepSeek Harness Web UI.",
+  "license": "MIT",
+  "author": "elalamiimed (https://github.com/elalamiimed)",
+  "homepage": "https://github.com/elalamiimed/dsh-prism-themes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elalamiimed/dsh-prism-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elalamiimed/dsh-prism-themes/issues"
+  },
+  "icon": "./icon.svg",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs/palette-atlas.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "cordis",
+    "theme",
+    "themes",
+    "colors",
+    "palette",
+    "dark-mode",
+    "light-mode",
+    "theme-studio",
+    "customization",
+    "ui"
+  ],
+  "scripts": {
+    "check": "node --check index.js && node --check client.js",
+    "test": "npm run check && node test/theme.test.mjs && node test/package.test.mjs && node test/apply.test.mjs",
+    "prepublishOnly": "npm run check && npm test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}
